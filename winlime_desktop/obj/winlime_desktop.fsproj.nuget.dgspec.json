@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dombi-balazs/RiderProjects/winlime/winlime_desktop/winlime_desktop.fsproj": {}
+  },
+  "projects": {
+    "/home/dombi-balazs/RiderProjects/winlime/winlime_desktop/winlime_desktop.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dombi-balazs/RiderProjects/winlime/winlime_desktop/winlime_desktop.fsproj",
+        "projectName": "winlime_desktop",
+        "projectPath": "/home/dombi-balazs/RiderProjects/winlime/winlime_desktop/winlime_desktop.fsproj",
+        "packagesPath": "/home/dombi-balazs/.nuget/packages/",
+        "outputPath": "/home/dombi-balazs/RiderProjects/winlime/winlime_desktop/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dombi-balazs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "/usr/lib/dotnet/sdk/9.0.111/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.6, )",
+              "generatePathProperty": true
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.6, )",
+              "generatePathProperty": true
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.6, )",
+              "generatePathProperty": true
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.6, )",
+              "generatePathProperty": true
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.6, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.101, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
